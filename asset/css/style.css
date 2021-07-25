@@ -1,0 +1,1204 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* html,
+body {
+    width: 100%;
+     height: auto; 
+    margin: 0;
+    padding: 0;
+     overflow-x: hidden;
+} */
+
+img{
+    max-width: 100%;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+}
+
+header .header-first-div{
+  position: relative;
+  padding-top: 23px;
+  padding-bottom: 25px;
+  background: #fff;
+}
+
+.header-first-div p{
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.header-first-div h1{
+  font-family: 'Source Sans Pro';
+  font-size: 28px;
+  font-weight: 500;
+  color: #FF3232;
+  margin: 0;
+}
+
+header .header-second-div{
+  position: relative;
+  padding: 15px 0;
+  background: #FF5700;
+}
+
+header .header-second-div ul li{
+  display: inline-block;
+  padding: 0px 18px;
+}
+
+header .header-second-div ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: 21px;
+}
+
+section.main-banner-section{
+  position: relative;
+  padding-top: 110px;
+  padding-bottom: 160px;
+  background: #328A9A;
+  background-image: url('../img/medicinevaly.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.main-banner-section .main-banner-content .img-div{
+  border: 15px solid #F2B23A;
+}
+
+.main-banner-section .main-banner-content img{
+  min-width: 327px;
+  height: 320px;
+  width: 100%;
+}
+
+.main-banner-section .main-banner-content .banner-text-div h2{
+  background: #FF5700;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  /* line-height: 0.53; */
+  letter-spacing: 0.3px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  max-width: 644px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.main-banner-section .main-banner-content .banner-text-div p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: 0.10px;
+  padding-top: 6px;
+  padding-bottom: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  background: #3A7E83;
+  color: #fff;
+  margin: 0;
+}
+
+section.service-section{
+  position: relative;
+  /* height: 927px; */
+}
+
+.service-container{
+  /* width: 318px; */
+  box-shadow: 1px 1px 8px #ff5700;
+}
+
+.service-section .service-section-content{
+  position: relative;
+  top: -53px;
+  z-index: 999;
+  width: 100%;
+  /* padding-bottom: 73px; */
+}
+
+.service-section .service-section-content .service-div{
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+  padding-bottom: 35px;
+  text-align: center;
+  border: 1px solid #FF5700;
+  background: #fff;
+}
+
+.service-section .service-section-content .service-div h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #FF7832;
+  margin-bottom: 32px;
+}
+
+.service-section .service-section-content .service-div p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.45px;
+  margin: 0;
+}
+
+.service-section .service-section-content .service-div.delivery-time-div{
+  height: 545px;
+}
+
+.service-section .service-section-content .service-div.full-hour-div, 
+.service-section .service-section-content .delivery-charge-div
+{
+  border-bottom: none;
+}
+
+.service-section .service-section-content .delivery-card-div{
+  text-align: center;
+  border: 1px solid #FF5700;
+  margin-bottom: 15px;
+}
+
+.service-section .service-section-content .delivery-card-div img{
+  width: 100%;
+}
+
+.service-section .service-section-content .delivery-card-div .delivery-card-content{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.service-section .service-section-content .delivery-card-div .delivery-card-content h2{
+  color: #FF7832;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 0.06px;
+  margin-bottom: 19px;
+}
+
+.service-section .service-section-content .delivery-card-div .delivery-card-content p{
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+
+section.delivery-product-section{
+  background: #FBCAB3;
+  padding-top: 74px;
+  padding-bottom: 80px;
+}
+
+.delivery-product-section .delivery-product-content{
+  text-align: center;
+}
+
+.delivery-product-section .delivery-product-content p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0.10px;
+  margin-bottom: 25px;
+}
+
+.delivery-product-section .delivery-product-content .product-img-div{
+  position: relative;
+}
+
+.delivery-product-section .delivery-product-content .product-img-div a{
+  position: absolute;
+  bottom: 0;
+  display: block;
+  font-size: 22px;
+  font-weight: 500;
+  width: 100%;
+  background-color: #5C5C5C;
+  color: #fff;
+  border-radius: 90px 90px 0 0;
+  padding-top: 65px;
+  padding-bottom: 23px;
+  /* height: 120px; */
+}
+
+.delivery-product-section .delivery-product-content .product-img-div img{
+  /* min-width: 364px; */
+  /* height: 294px; */
+  box-shadow: 2px 2px 10px 2px #343434 !important;
+}
+
+section.appointment-section{
+  padding: 80px 0;
+}
+
+.appointment-section .appointment-section-content{
+  display: flex;
+  justify-content: center;
+}
+
+.appointment-section-content .ask-appointment{
+  background-color: #FF5700;
+  max-width: 734px;
+  width: 100%;
+  text-align: center;
+  padding: 50px 8px 40px 40px; 
+}
+
+.appointment-section-content .ask-appointment h2{
+  background-color: #014031;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  letter-spacing: -0.27px;
+  padding: 5px 0;
+  margin-bottom: 18px;
+}
+
+.appointment-section-content .ask-appointment h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  letter-spacing: -0.16px;
+  margin-bottom: 21px;
+}
+
+.appointment-section-content .ask-appointment p{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a.view-more-button{
+  font-size: 14px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+  padding-bottom: 9px;
+  color: #000;
+  border: 2px solid #fff;
+}
+
+.doctor-details{
+  position: relative;
+  width: 434px;
+  border: 1px solid #5400FF;
+}
+
+.doctor-details .about-doctor{
+  position: absolute;
+  bottom: 24px;
+  right: 9px;
+}
+
+.doctor-details .about-doctor p{
+  font-size: 27px;
+  letter-spacing: -0.27px;
+  text-transform: capitalize;
+  background: #014031;
+  color: #fff;
+  border: 1px solid #33665A;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 0;
+}
+
+.hotline-div .hotline-number{
+  text-align: center;
+  background: #014031;
+  color: #fff;
+  padding-top: 6px;
+  padding-bottom: 9px;
+}
+
+.hotline-div .hotline-number p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.home-delivery-section .home-delivery-content .instant-home-delivery-content p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  text-align: center;
+  background-color: #014031;
+  color: #fff;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  border-radius: 60px;
+  margin: 0;
+}
+
+section.brand-logo-section{
+  position: relative;
+  padding-top: 40px;
+}
+
+.brand-logo-content{
+  /* display: flex;
+  justify-content: center; */
+  margin-bottom: 82px;
+}
+
+.brand-logo-content img{
+  padding: 0 20px;
+}
+
+/* .brand-logo-content img:first-child{
+  padding-left: 0;
+}
+
+.brand-logo-content img:last-child{
+  padding-right: 0;
+} */
+
+.img-banner-div iframe{
+  width: 100%;
+  /* height: 300px; */
+  border: 1px solid #5400FF !important;
+  margin-bottom: 26px;
+}
+
+.partner-logo img{
+  height: 96px;
+  max-width: 156px;
+  margin: 0 7.5px;
+  border: 2px solid #253b8e;
+  border-radius: 15px;
+  margin-bottom: 8px;
+}
+
+.our-partner-div p{
+  font-size: 25px;
+  letter-spacing: 0.34px;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  border: 1px solid #D6D6D6;
+}
+
+.paymet-type-acceptance p{
+  width: 100%;
+  text-align: center;
+  background: #FF5700;
+  color: #fff;
+  border-radius: 25px;
+  padding-top: 17px;
+  padding-bottom: 18px;
+  font-size: 30px;
+  line-height: 0.5;
+}
+
+footer{
+  background: #000;
+  color:#fff;
+  padding-top: 79px;
+  padding-bottom: 88px;
+  border-top: 3px solid #FF5700;
+}
+
+footer .footer-section-content .footer-about-content h2, footer .footer-section-content .footer-about-content p{
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: -0.37px;
+  margin-bottom: 20px;
+}
+
+footer .footer-section-content .footer-about-content p{
+  font-size: 17px !important;
+  font-weight: 400;
+}
+
+.social-links ul li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.social-links ul li a{
+  display: inline-block;
+}
+
+.social-links ul>li>a>img{
+  width: 20px;
+  height: 20px;
+}
+
+.contact-links ul li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contact-links ul li span{
+  margin-right: 22px;
+}
+
+.contact-links ul>li>span>img{
+  width: 22px;
+}
+
+.quick-link ul li{
+  margin-bottom: 10px;
+}
+
+.quick-link ul li a{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+section.ambulance-service-section{
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+.ambulance-service-section .ambulance-service-content{
+  text-align: center;
+}
+
+.ambulance-service-section .ambulance-service-content h2{
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: 0.38px;
+  background-color: #CED726;
+  color: #000;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 13px;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.ambulance-service-section .ambulance-service-content h3{
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  background-color: #055E74;
+  color: #fff;
+  padding: 8px 0;
+  margin-bottom: 60px;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.ambulance-service-section .ambulance-service-content p{
+  font-size: 17px;
+  font-weight: regular;
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+section.doctor-appointment-section{
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 32px;
+}
+
+.appointment-form-div .text-field{
+  text-align: left;
+}
+
+.appointment-form-div .text-field label{
+  display: block;
+  font-size: 12px;
+  font-weight: regular;
+  letter-spacing: 0.12;
+  color: #707070;
+}
+
+.appointment-form-div .text-field input[type="text"], 
+.appointment-form-div .text-field input[type="email"],
+.appointment-form-div .text-field input[type="tel"],
+.appointment-form-div .text-field input[type="date"],
+.appointment-form-div .text-field select
+{
+  display: inline-block;
+  border: 1px solid #707070;
+  outline: none;
+  background-color: #EDEDED;
+  color: #000;
+  border-radius: 3px;
+  width: 100%;
+  margin-bottom: 32px;
+  padding: 9px 5px;
+}
+
+.appointment-form-div .text-field input[type="file"]::file-selector-button{
+  display: inline-block;
+  font-size: 14px;
+  background-color: #1ABCA1;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.appointment-form-div .text-field input[type="submit"]{
+  display: inline-block;
+  font-size: 14px;
+  background-color: #17A8E3;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.section-contact-links ul li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #FF5700;
+}
+
+.map-image img{
+  min-height: 260px;
+  height: 100%;
+}
+
+/*Shop Now Section*/
+section.shop-now-section{
+  position: relative;
+  padding-top: 21px;
+  padding-bottom: 23px;
+}
+
+/*Career Section*/
+section.apply-position-section{
+  position: relative;
+  padding-top: 58px;
+  padding-bottom: 100px;
+}
+
+.apply-position-section .apply-position-content .available-positions-list h2{
+  position: relative;
+  font-size: 23px;
+  font-weight: bold;
+  padding-bottom: 18px;
+  margin-bottom: 36px;
+}
+
+.apply-position-section .apply-position-content .available-positions-list h2::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #FF5700;
+}
+
+.apply-position-section .apply-position-content .available-positions-list p{
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.16px;
+}
+
+.apply-position-section .apply-position-content .apply-position-form label{
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.50px;
+  margin-bottom: 12px;
+}
+
+.apply-position-section .apply-position-content .apply-position-form h2{
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0.86px;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 18px;
+}
+
+.apply-position-section .apply-position-content .apply-position-form p{
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 0.17px;
+  color: #444444;
+  padding-bottom: 15px;
+  margin-bottom: 54px;
+}
+
+.apply-position-section .apply-position-content .apply-position-form p::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 39px;
+  height: 2px;
+  background: #FF5700;
+}
+
+.apply-position-section .apply-position-content .apply-position-form input[type="text"],
+.apply-position-section .apply-position-content .apply-position-form input[type="email"],
+.apply-position-section .apply-position-content .apply-position-form input[type="number"],
+.apply-position-section .apply-position-content .apply-position-form input[type="url"],
+.apply-position-section .apply-position-content .apply-position-form input[type="date"],
+.apply-position-section .apply-position-content .apply-position-form select,
+.apply-position-section .apply-position-content .apply-position-form textarea{
+  width: 100%;
+  border: 1.5px solid #707070;
+  outline: none;
+  padding: 6px 12px;
+  margin-bottom: 15px;
+}
+
+.apply-position-section .apply-position-content .apply-position-form input[type="submit"]{
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.62px;
+  text-transform: uppercase;
+  background: #FF5700;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+}
+
+.available-positions-list button.accordion{
+  width: 100%;
+  position: relative;
+  display: flex !important;
+  align-items: center !important;
+  padding-right: 19px !important;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 13px 32px; 
+  text-align: left;
+  height: 47px;
+
+  color: #444444 !important;
+  background-color: #EEEEEE !important;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* .available-positions-list button.accordion {
+background-color: #EEEEEE !important;
+color: #444444 !important;
+cursor: pointer;
+margin: 39px 0 !important;
+padding: 13px 0;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+transition: 0.4s;
+} */
+
+.available-positions-list .active, .accordion:hover {
+background-color: #ccc;
+}
+
+.available-positions-list .panel {
+padding: 22px 0 22px 5px;
+/* margin-left: 15px; */
+/* display: none; */
+background-color: transparent !important;
+overflow: hidden;
+transition: 0.4s;
+}
+
+.available-positions-list .panel ul li{
+  position: relative;
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.available-positions-list .panel ul li::before{
+  content: '\2713';
+  padding-right: 15px;
+
+}
+
+.available-positions-list .panel p{
+margin: 0;
+}
+
+.available-positions-list .panel span{
+padding: 0 10px;
+font-size: 35px;
+display: inline-block;
+}
+
+.available-positions-list button.accordion::after {
+  content: '+';
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  left: 5px;
+/*  top: 7px; */
+}
+
+.available-positions-list  button.accordion.active::after {
+ content: '-';
+ font-size: 22px;
+ font-weight: bold;
+ position: absolute;
+  left: 5px;
+/* top: 20px; */
+}
+
+.available-positions-list .accordion-button{
+border-bottom: 1px solid #fff;
+}
+
+.available-positions-list button.accordion span{
+padding: 0 10px;
+font-size: 35px;
+display: inline-block;
+padding-bottom: 20px;
+}
+
+.img-div img{
+  width: 100%;
+}
+
+.main-navbar{
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1199.5px){
+
+  .main-banner-row{
+    justify-content: center;
+  }
+
+  .main-banner-section .main-banner-content .img-div{
+    margin-bottom: 25px;
+  }
+
+  .brand-logo-content{
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  .partner-logo img{
+    max-width: 100px;
+  }
+
+  .brand-logo-content img{
+    padding: 0 5px;
+  }
+}
+
+@media only screen and (max-width: 991.5px){
+
+  header .header-second-div ul li{
+    padding: 0 !important;
+  }
+
+  .delivery-product-section .delivery-product-content .product-img-div img{
+    height: auto;
+  }
+
+  .delivery-product-section .delivery-product-content .product-img-div{
+    margin-bottom: 15px;
+  }
+
+  .delivery-product-section .delivery-product-content .product-img-div a{
+    padding-top: 23px;
+  }
+  
+  h4.card-title{
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .mainNavRow{
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+
+}
+
+@media only screen and (max-width: 991.5px) and (min-width: 766.5px){
+  .hotline-div .hotline-number p,
+  .home-delivery-section .home-delivery-content .instant-home-delivery-content p{
+    font-size: 25px;
+  }
+
+  .appointment-section-content .ask-appointment{
+    max-width: 420px;
+  }
+
+  .doctor-details .about-doctor p, .appointment-section-content .ask-appointment h2{
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .appointment-section-content .ask-appointment h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .header-first-div > .container,
+  .home-delivery-content > .container,
+  .brand-logo-inner > .container,
+  .paymet-type-acceptance .container,
+  .header-second-div > .container{
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .ambulance-service-section .ambulance-service-content h3,
+  .ambulance-service-section .ambulance-service-content h2{
+    font-size: 20px;
+  }
+
+  .product-card-div .product-div-content .card{
+    max-width: 250px;
+  }
+
+  .product-card-div .product-div-content .col-md-2{
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 767.5px){
+
+  .header-first-div h1{
+    display: none;
+  }
+    
+  header .header-second-div ul li{
+    border-bottom: 1px solid #fff;
+  }
+
+  header .header-second-div ul li:first-child{
+    border-top: 1px solid #fff;
+  }
+
+  a.navbar-brand{
+    display: block !important;
+    font-size: 16px;
+    font-weight: bold
+  }
+  
+
+  .product-card-div .product-div-content .col-md-2{
+    width: 25%;
+  }
+
+  .header-first-div > .container,
+  .home-delivery-content > .container,
+  .brand-logo-inner > .container,
+  .paymet-type-acceptance .container,
+  .header-second-div > .container{
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .header-first-div{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .header-second-div > .container > .row{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  header .header-second-div ul li{
+    padding: 0 10px;
+  }
+  
+  .partner-logo{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .ambulance-service-section .ambulance-service-content h3,
+  .ambulance-service-section .ambulance-service-content h2{
+    font-size: 20px;
+  }
+
+  footer{
+    text-align: center;
+    padding: 35px 0 0 0;
+  }
+
+  footer .footer-section-content .footer-about-content{
+    margin-bottom: 35px;
+  }
+
+  footer .footer-section-content .footer-about-content .contact-links ul li{
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  footer .footer-section-content .footer-about-content .contact-links ul li:last-child{
+    margin-bottom: 0;
+  }
+
+}
+
+@media only screen and (max-width: 767.5px) and (min-width: 574.5px){
+
+  .main-banner-section .main-banner-content .banner-text-div p,
+  .main-banner-section .main-banner-content .banner-text-div h2{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .service-section .service-section-content .service-div h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .service-section .service-section-content .service-div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .doctor-details .about-doctor p{
+    font-size: 16px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .service-section .service-section-content .service-div.delivery-time-div{
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .hotline-div .hotline-number p, 
+  .home-delivery-section .home-delivery-content .instant-home-delivery-content p{
+    font-size: 20px;
+  }
+  .appointment-section-content .ask-appointment{
+    max-width: 450px;
+    padding: 35px 10px 30px 25px;
+  }
+  
+  .appointment-section-content .ask-appointment h2{
+    font-size: 16px;
+  }
+
+  .header-first-div{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .header-second-div > .container > .row{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  header .header-second-div ul li{
+    padding: 0 10px;
+  }
+
+  .partner-logo{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .paymet-type-acceptance p{
+    font-size: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (max-width: 575.5px){
+  .hotline-div .hotline-number{
+    margin-bottom: 15px;
+  }
+
+  .hotline-div .hotline-number p, 
+  .home-delivery-section .home-delivery-content .instant-home-delivery-content p{
+    font-size: 20px;
+  }
+
+  .hotline-div img{
+    width: 100%;
+  }
+
+  .header-first-div h1{
+    font-size: 18px;
+  }
+
+  .header-first-div p{
+    font-size: 13px;
+  }
+
+  header .header-first-div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 574.5px) and (min-width: 479.5px){
+  .partner-logo img{
+    margin: 2.5px;
+  }
+
+  .appointment-section-content .ask-appointment h2{
+    font-size: 15px;
+  }
+
+  .appointment-section-content .ask-appointment h3{
+    font-size: 21px;
+  }
+
+  .doctor-details .about-doctor p{
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+ 
+  .delivery-product-section .delivery-product-content p{
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .ambulance-service-section .ambulance-service-content h3,
+  .ambulance-service-section .ambulance-service-content h2{
+    font-size: 20px;
+  }
+
+  .product-card-div .product-div-content .col-md-2{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 480.5px) and (min-width: 359.5px){
+
+  .product-card-div .product-div-content .col-md-2{
+    width: 50%;
+  }
+
+  /* .header-first-div p,
+  .header-first-div h1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  } */
+
+  /* .social-media-div{
+    width: 100%;
+    text-align: center;
+  } */
+  
+  .appointment-section .appointment-section-content{
+    display: block;
+  }
+
+  .appointment-section .appointment-section-content .doctor-details{
+    height: 360px;
+    width: 100%;
+  }
+  
+  .appointment-section-content .ask-appointment{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+
+  .paymet-type-acceptance p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.0;
+  }
+
+  .main-banner-section .main-banner-content .banner-text-div p, 
+  .main-banner-section .main-banner-content .banner-text-div h2{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 95%;
+    width: 100%;
+  }
+
+  .service-section .service-section-content .service-div h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .service-section .service-section-content .service-div{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .doctor-details .about-doctor p{
+    font-size: 16px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .service-section .service-section-content .service-div.delivery-time-div{
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .contact-links ul li span{
+    margin-right: 10px;
+  }
+
+  .ambulance-service-section .ambulance-service-content h3,
+  .ambulance-service-section .ambulance-service-content h2{
+    font-size: 15px;
+  }
+
+  #search-input{
+    max-width: 150px;
+    width: 100%;
+  }
+
+  .sorting-div p{
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
